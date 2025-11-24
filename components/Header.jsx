@@ -17,11 +17,11 @@ export default function Header() {
   const [shrink, setShrink] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
-
   const [showExams, setShowExams] = useState(false);
-  const examsTimer = useRef(null);
 
+  const examsTimer = useRef(null);
   const logoRef = useRef(null);
+
   const symbols = ["∑", "π", "∫", "f(x)", "!=", "< >", "0", "1"];
 
   const spawnAroundLogo = () => {
@@ -29,6 +29,7 @@ export default function Header() {
     if (!rect) return;
     const cx = rect.left + rect.width / 2;
     const cy = rect.top + rect.height / 2;
+
     for (let i = 0; i < 14; i++) {
       const el = document.createElement("div");
       el.innerText = symbols[Math.floor(Math.random() * symbols.length)];
@@ -52,23 +53,72 @@ export default function Header() {
   };
 
   const exams = [
-    { name: "TYT", slug: "tyt", topics: ["temel kavramlar", "sayı basamakları","asal çarpanlara ayırma","ebob-ekok","1.dereceden denklemler","basit eşitsizlikler","mutlak değer","üslü sayılar","köklü sayılar"] },
+    {
+      name: "TYT",
+      slug: "tyt",
+      topics: [
+        "temel kavramlar",
+        "sayı basamakları",
+        "asal çarpanlara ayırma",
+        "ebob-ekok",
+        "1.dereceden denklemler",
+        "basit eşitsizlikler",
+        "mutlak değer",
+        "üslü sayılar",
+        "köklü sayılar",
+      ],
+    },
     {
       name: "AYT",
       slug: "ayt",
       topics: [
-        "fonksiyonlar","polinomlar","çarpanlara ayırma","2-dereceden-denklem","parabol",
-        "eşitsizlikler","logaritma","diziler","limit","turev","integral",
+        "fonksiyonlar",
+        "polinomlar",
+        "çarpanlara ayırma",
+        "2-dereceden-denklem",
+        "parabol",
+        "eşitsizlikler",
+        "logaritma",
+        "diziler",
+        "limit",
+        "turev",
+        "integral",
       ],
     },
-    { name: "LGS", slug: "lgs", topics: ["çarpanlar ve katlar","üslü ifadeler","kareköklü ifadeler","veri analizi","basit olayların olasılığı","cebirsel ifadeler ve özdeşlikler","doğrusal denklemler","eşitsizlikler"] },
-    { name: "SAT", slug: "sat", topics: ["hearth of algebra","problem solving&data analysis","passport to advanced math","additional topics in math"] },
-    { name: "ACT", slug: "act", topics: ["algebra","functions","geometry","number & quantity","statistic & probability"] },
+    {
+      name: "LGS",
+      slug: "lgs",
+      topics: [
+        "çarpanlar ve katlar",
+        "üslü ifadeler",
+        "kareköklü ifadeler",
+        "veri analizi",
+        "basit olayların olasılığı",
+        "cebirsel ifadeler ve özdeşlikler",
+        "doğrusal denklemler",
+        "eşitsizlikler",
+      ],
+    },
+    {
+      name: "SAT",
+      slug: "sat",
+      topics: [
+        "hearth of algebra",
+        "problem solving&data analysis",
+        "passport to advanced math",
+        "additional topics in math",
+      ],
+    },
+    {
+      name: "ACT",
+      slug: "act",
+      topics: ["algebra", "functions", "geometry", "number & quantity", "statistic & probability"],
+    },
     { name: "BAC", slug: "bac", topics: [] },
     { name: "AP CALCULUS BC", slug: "ap-calculus-bc", topics: [] },
     { name: "ABITUR", slug: "abitur", topics: [] },
-    { name: "A-LEVEL-MATHEMATİCS", slug: "a-level mathematics", topics:[] },
-    { name: "GRE", slug: "gre", topics:[] },
+    { name: "A-LEVEL-MATHEMATİCS", slug: "a-level mathematics", topics: [] },
+    { name: "GRE", slug: "gre", topics: [] },
   ];
 
   useEffect(() => {
@@ -104,7 +154,6 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between text-gray-200">
-        
         {/* LOGO */}
         <div ref={logoRef} onMouseEnter={spawnAroundLogo}>
           <Link href="/" className="flex items-center">
@@ -114,35 +163,43 @@ export default function Header() {
 
         {/* NAV */}
         <nav className="flex gap-6 font-medium text-[15px]">
-          
-          {/* ❌ Home artık mobile'de gizli */}
           <Link href="/" className="hidden md:block hover:text-blue-400 transition">
             {language === "en" ? "Home" : "Ana Sayfa"}
           </Link>
-
           <Link href="/coaching" className="hover:text-blue-400 transition">
             {language === "en" ? "Coaching" : "Koçluk"}
           </Link>
 
-          {/* 🔥 Exams artık mobile'de görünüyor */}
+          {/* Exams */}
           <div
             className="relative"
             onMouseEnter={() => {
-              clearTimeout(examsTimer.current);
-              setShowExams(true);
+              if (window.innerWidth >= 768) {
+                clearTimeout(examsTimer.current);
+                setShowExams(true);
+              }
             }}
             onMouseLeave={() => {
-              examsTimer.current = setTimeout(() => setShowExams(false), 300);
+              if (window.innerWidth >= 768) {
+                examsTimer.current = setTimeout(() => setShowExams(false), 300);
+              }
             }}
-            onClick={() => setShowExams((prev) => !prev)} // mobil tıklayınca aç/kapa
+            onClick={() => {
+              if (window.innerWidth < 768) {
+                router.push("/exams");
+                return;
+              }
+              setShowExams((prev) => !prev);
+            }}
           >
             <span className="cursor-pointer select-none hover:text-blue-400 transition">
               {language === "en" ? "Exams" : "Sınavlar"}
             </span>
 
+            {/* Dropdown only for desktop */}
             <div
               className={`absolute top-full left-0 mt-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 transition-all duration-200 ${
-                showExams ? "opacity-100 visible" : "opacity-0 invisible"
+                showExams && window.innerWidth >= 768 ? "opacity-100 visible" : "opacity-0 invisible"
               }`}
             >
               {exams.map((exam) => (
@@ -153,11 +210,8 @@ export default function Header() {
                   >
                     {exam.name}
                   </Link>
-
                   {exam.topics.length > 0 && (
-                    <div
-                      className="absolute top-0 left-full translate-x-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 opacity-0 invisible transition-all duration-200 group-hover/item:opacity-100 group-hover/item:visible"
-                    >
+                    <div className="absolute top-0 left-full translate-x-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 opacity-0 invisible transition-all duration-200 group-hover/item:opacity-100 group-hover/item:visible">
                       {exam.topics.map((topic) => (
                         <Link
                           key={topic}
@@ -177,8 +231,6 @@ export default function Header() {
 
         {/* RIGHT PANEL */}
         <div className="flex items-center gap-3 relative">
-          
-          {/* 🔥 Arama artık mobile'de de görünüyor */}
           <input
             value={query}
             onChange={(e) => handleSearch(e.target.value)}
