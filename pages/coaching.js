@@ -3,7 +3,7 @@ import { LanguageContext } from "../context/LanguageContext";
 
 export default function Coaching() {
   const { language } = useContext(LanguageContext);
-  const whatsappNumber = "+90XXXXXXXXXX"; // Uluslararası formatta
+  const whatsappNumber = "+905350453707"; // Uluslararası formatta
 
   const extraFeatures = [
     { text: language === "en" ? "Quiz generation" : "Quiz üretme" },
@@ -161,8 +161,8 @@ export default function Coaching() {
 
       <p className="mt-14 text-sm text-gray-500">
         {language === "en"
-          ? "🔒 100% satisfaction guarantee — cancel anytime."
-          : "🔒 %100 memnuniyet garantisi — istediğin zaman iptal edebilirsin."}
+          ? "🔒 100% satisfaction guarantee ."
+          : "🔒 %100 memnuniyet garantisi ."}
       </p>
     </div>
   );
