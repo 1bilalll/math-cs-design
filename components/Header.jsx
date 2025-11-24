@@ -124,13 +124,18 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* NAV */}
-        <nav className="hidden md:flex gap-6 font-medium text-[15px]">
-          <Link href="/" className="hover:text-blue-400 transition">{language === "en" ? "Home" : "Ana Sayfa"}</Link>
-          <Link href="/coaching" className="hover:text-blue-400 transition">{language === "en" ? "Coaching" : "Koçluk"}</Link>
+        {/* NAV — ARTIK MOBİLDE GÖRÜNÜR */}
+        <nav className="flex gap-6 font-medium text-[15px]">
+          <Link href="/" className="hover:text-blue-400 transition">
+            {language === "en" ? "Home" : "Ana Sayfa"}
+          </Link>
+
+          <Link href="/coaching" className="hover:text-blue-400 transition">
+            {language === "en" ? "Coaching" : "Koçluk"}
+          </Link>
 
           <div
-            className="relative"
+            className="relative hidden md:block"
             onMouseEnter={() => {
               clearTimeout(examsTimer.current);
               setShowExams(true);
@@ -179,11 +184,12 @@ export default function Header() {
 
         {/* RIGHT PANEL */}
         <div className="flex items-center gap-3 relative">
+          {/* 🔥 Arama artık mobilde gizli */}
           <input
             value={query}
             onChange={(e) => handleSearch(e.target.value)}
             placeholder={language === "en" ? "Search exams..." : "Sınav ara..."}
-            className={`border border-gray-600 bg-gray-800 text-gray-200 rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-32 focus:w-64 ${
+            className={`hidden md:block border border-gray-600 bg-gray-800 text-gray-200 rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-32 focus:w-64 ${
               query !== "" ? "w-64" : ""
             }`}
           />
