@@ -57,17 +57,8 @@ export default function Header() {
       name: "AYT",
       slug: "ayt",
       topics: [
-        "fonksiyonlar",
-        "polinomlar",
-        "çarpanlara ayırma",
-        "2-dereceden-denklem",
-        "parabol",
-        "eşitsizlikler",
-        "logaritma",
-        "diziler",
-        "limit",
-        "turev",
-        "integral",
+        "fonksiyonlar","polinomlar","çarpanlara ayırma","2-dereceden-denklem","parabol",
+        "eşitsizlikler","logaritma","diziler","limit","turev","integral",
       ],
     },
     { name: "LGS", slug: "lgs", topics: ["çarpanlar ve katlar","üslü ifadeler","kareköklü ifadeler","veri analizi","basit olayların olasılığı","cebirsel ifadeler ve özdeşlikler","doğrusal denklemler","eşitsizlikler"] },
@@ -97,11 +88,7 @@ export default function Header() {
   const handleSearch = (value) => {
     setQuery(value);
     if (!value.trim()) return setResults([]);
-    setResults(
-      searchIndex.filter((item) =>
-        item.name.toLowerCase().includes(value.toLowerCase())
-      )
-    );
+    setResults(searchIndex.filter((item) => item.name.toLowerCase().includes(value.toLowerCase())));
   };
 
   const goToResult = (url) => {
@@ -117,6 +104,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between text-gray-200">
+        
         {/* LOGO */}
         <div ref={logoRef} onMouseEnter={spawnAroundLogo}>
           <Link href="/" className="flex items-center">
@@ -124,9 +112,11 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* NAV — ARTIK MOBİLDE GÖRÜNÜR */}
+        {/* NAV */}
         <nav className="flex gap-6 font-medium text-[15px]">
-          <Link href="/" className="hover:text-blue-400 transition">
+          
+          {/* ❌ Home artık mobile'de gizli */}
+          <Link href="/" className="hidden md:block hover:text-blue-400 transition">
             {language === "en" ? "Home" : "Ana Sayfa"}
           </Link>
 
@@ -134,8 +124,9 @@ export default function Header() {
             {language === "en" ? "Coaching" : "Koçluk"}
           </Link>
 
+          {/* 🔥 Exams artık mobile'de görünüyor */}
           <div
-            className="relative hidden md:block"
+            className="relative"
             onMouseEnter={() => {
               clearTimeout(examsTimer.current);
               setShowExams(true);
@@ -143,14 +134,16 @@ export default function Header() {
             onMouseLeave={() => {
               examsTimer.current = setTimeout(() => setShowExams(false), 300);
             }}
+            onClick={() => setShowExams((prev) => !prev)} // mobil tıklayınca aç/kapa
           >
             <span className="cursor-pointer select-none hover:text-blue-400 transition">
               {language === "en" ? "Exams" : "Sınavlar"}
             </span>
 
             <div
-              className={`absolute top-full left-0 mt-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 transition-all duration-200
-                ${showExams ? "opacity-100 visible" : "opacity-0 invisible"}`}
+              className={`absolute top-full left-0 mt-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 transition-all duration-200 ${
+                showExams ? "opacity-100 visible" : "opacity-0 invisible"
+              }`}
             >
               {exams.map((exam) => (
                 <div key={exam.slug} className="relative group/item">
@@ -184,12 +177,13 @@ export default function Header() {
 
         {/* RIGHT PANEL */}
         <div className="flex items-center gap-3 relative">
-          {/* 🔥 Arama artık mobilde gizli */}
+          
+          {/* 🔥 Arama artık mobile'de de görünüyor */}
           <input
             value={query}
             onChange={(e) => handleSearch(e.target.value)}
             placeholder={language === "en" ? "Search exams..." : "Sınav ara..."}
-            className={`hidden md:block border border-gray-600 bg-gray-800 text-gray-200 rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-32 focus:w-64 ${
+            className={`border border-gray-600 bg-gray-800 text-gray-200 rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-28 focus:w-64 ${
               query !== "" ? "w-64" : ""
             }`}
           />
