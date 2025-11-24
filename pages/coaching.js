@@ -15,7 +15,7 @@ export default function Coaching() {
     en: [
       {
         title: "Student",
-        price: "$99",
+        price: "$119",
         billing: "/month",
         description: "Best for beginners — fast improvement with weekly progress tracking.",
         features: [
@@ -60,7 +60,7 @@ export default function Coaching() {
     tr: [
       {
         title: "Student",
-        price: "$99",
+        price: "$119",
         billing: "/ay",
         description: "Yeni başlayanlar için — haftalık takip ile hızlı ilerleme.",
         features: [

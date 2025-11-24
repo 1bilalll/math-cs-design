@@ -36,7 +36,7 @@ export default function Footer() {
         about: "Math & CS, matematik ve bilgisayar bilimlerini etkileşimli ve eğlenceli hale getirmek için tasarlanmış bir platformdur. Ben Bilal Arslan, 10 yıllık matematik öğretmeniyim ve aynı zamanda bilgisayar mühendisliği okuyorum. Bu siteyi öğrencilerin öğrenmeyi daha kolay ve eğlenceli hale getirmesi için tasarladım.",
         blog: "Math & CS Blog: Matematik ve bilgisayar bilimi ile ilgili güncellemeler, ipuçları ve öğretici makaleler burada yer alacak. Öğrenme sürecinizi destekleyecek kısa rehberler ve öneriler için blogu takip edebilirsiniz.",
         exams: "Sınavlar: Matematik ve bilgisayar bilimi bilgilerinizi interaktif quizler ve örnek sınavlarla test edebilirsiniz. Sorular, problem çözme ve eleştirel düşünme becerilerinizi geliştirmek için tasarlanmıştır. Hem yeni başlayanlar hem de ileri seviyedeki öğrenciler için uygundur.",
-        contact: "Bana ulaşmak için buradan mesaj gönderebilirsiniz. Soru, öneri veya işbirliği teklifleri için her zaman açığım. Email: info@mathcs.com",
+        contact: "Bana ulaşmak için buradan mesaj gönderebilirsiniz. Soru, öneri veya işbirliği teklifleri için her zaman açığım. Email: barslan2021@gtu.edu.tr",
       },
     },
   };
