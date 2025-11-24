@@ -38,7 +38,7 @@ export default function Header() {
       el.style.fontSize = "18px";
       el.style.fontWeight = "600";
       el.style.pointerEvents = "none";
-      el.style.color = "rgba(60, 60, 60, 0.9)";
+      el.style.color = "rgba(180, 180, 180, 0.85)";
       el.style.transition = "transform 1.3s ease-out, opacity 1.3s ease-out";
       document.body.appendChild(el);
       const angle = Math.random() * Math.PI * 2;
@@ -78,9 +78,6 @@ export default function Header() {
     { name: "ABITUR", slug: "abitur", topics: [] },
     { name: "A-LEVEL-MATHEMATİCS", slug: "a-level mathematics", topics:[] },
     { name: "GRE", slug: "gre", topics:[] },
-
-
-
   ];
 
   useEffect(() => {
@@ -115,11 +112,11 @@ export default function Header() {
 
   return (
     <header
-      className={`w-full border-b bg-white/90 dark:bg-gray-900/90 backdrop-blur-md sticky top-0 z-50 transition-all duration-300 ${
+      className={`w-full border-b border-gray-700 bg-gray-900/90 backdrop-blur-xl sticky top-0 z-50 transition-all duration-300 ${
         shrink ? "py-0" : "py-1"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 flex items-center justify-between text-gray-200">
         {/* LOGO */}
         <div ref={logoRef} onMouseEnter={spawnAroundLogo}>
           <Link href="/" className="flex items-center">
@@ -128,11 +125,10 @@ export default function Header() {
         </div>
 
         {/* NAV */}
-        <nav className="hidden md:flex gap-6 font-medium text-slate-700 dark:text-slate-300 text-[15px]">
-          <Link href="/">{language === "en" ? "Home" : "Ana Sayfa"}</Link>
-          <Link href="/coaching">{language === "en" ? "Coaching" : "Koçluk"}</Link>
+        <nav className="hidden md:flex gap-6 font-medium text-[15px]">
+          <Link href="/" className="hover:text-blue-400 transition">{language === "en" ? "Home" : "Ana Sayfa"}</Link>
+          <Link href="/coaching" className="hover:text-blue-400 transition">{language === "en" ? "Coaching" : "Koçluk"}</Link>
 
-          {/* UPDATED EXAMS MENU */}
           <div
             className="relative"
             onMouseEnter={() => {
@@ -143,46 +139,32 @@ export default function Header() {
               examsTimer.current = setTimeout(() => setShowExams(false), 300);
             }}
           >
-            <span className="cursor-pointer select-none">
+            <span className="cursor-pointer select-none hover:text-blue-400 transition">
               {language === "en" ? "Exams" : "Sınavlar"}
             </span>
 
             <div
-              className={`
-                absolute top-full left-0 mt-2 bg-white dark:bg-gray-800
-                border dark:border-gray-700 shadow-lg rounded-lg
-                p-2 w-56 flex flex-col gap-1 z-50 transition-all duration-200
-                ${showExams ? "opacity-100 visible" : "opacity-0 invisible"}
-              `}
-              onMouseEnter={() => clearTimeout(examsTimer.current)}
-              onMouseLeave={() => {
-                examsTimer.current = setTimeout(() => setShowExams(false), 300);
-              }}
+              className={`absolute top-full left-0 mt-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 transition-all duration-200
+                ${showExams ? "opacity-100 visible" : "opacity-0 invisible"}`}
             >
               {exams.map((exam) => (
                 <div key={exam.slug} className="relative group/item">
                   <Link
                     href={`/exams/${exam.slug}`}
-                    className="block px-2 py-1 text-sm hover:bg-slate-100 dark:hover:bg-gray-700 rounded whitespace-nowrap"
+                    className="block px-2 py-1 text-sm rounded hover:bg-gray-700"
                   >
                     {exam.name}
                   </Link>
 
                   {exam.topics.length > 0 && (
                     <div
-                      className="
-                        absolute top-0 left-full translate-x-2 bg-white dark:bg-gray-800
-                        border dark:border-gray-700 shadow-lg rounded-lg
-                        p-2 w-56 flex flex-col gap-1 z-50
-                        opacity-0 invisible transition-all duration-200
-                        group-hover/item:opacity-100 group-hover/item:visible
-                      "
+                      className="absolute top-0 left-full translate-x-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 opacity-0 invisible transition-all duration-200 group-hover/item:opacity-100 group-hover/item:visible"
                     >
                       {exam.topics.map((topic) => (
                         <Link
                           key={topic}
                           href={`/exams/${exam.slug}/${topic}`}
-                          className="block px-2 py-1 text-sm hover:bg-slate-100 dark:hover:bg-gray-700 rounded whitespace-nowrap"
+                          className="block px-2 py-1 text-sm rounded hover:bg-gray-700"
                         >
                           {topic}
                         </Link>
@@ -201,18 +183,18 @@ export default function Header() {
             value={query}
             onChange={(e) => handleSearch(e.target.value)}
             placeholder={language === "en" ? "Search exams..." : "Sınav ara..."}
-            className={`border rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-32 focus:w-64 dark:border-gray-600 dark:bg-gray-800 ${
+            className={`border border-gray-600 bg-gray-800 text-gray-200 rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-32 focus:w-64 ${
               query !== "" ? "w-64" : ""
             }`}
           />
 
           {results.length > 0 && (
-            <div className="absolute right-0 top-10 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-lg shadow-md w-72 max-h-64 overflow-y-auto z-50">
+            <div className="absolute right-0 top-10 bg-gray-900 border border-gray-700 text-gray-200 rounded-lg shadow-md w-72 max-h-64 overflow-y-auto z-50">
               {results.map((item) => (
                 <div
                   key={item.url}
                   onClick={() => goToResult(item.url)}
-                  className="px-3 py-2 hover:bg-slate-100 dark:hover:bg-gray-700 cursor-pointer text-sm"
+                  className="px-3 py-2 hover:bg-gray-700 cursor-pointer text-sm"
                 >
                   {item.name}
                 </div>
@@ -222,7 +204,7 @@ export default function Header() {
 
           <button
             onClick={() => toggleLanguage(language === "tr" ? "en" : "tr")}
-            className="px-2 py-1 border rounded-lg text-sm hover:bg-slate-100 dark:hover:bg-gray-700"
+            className="px-2 py-1 border border-gray-600 rounded-lg text-sm hover:bg-gray-700"
           >
             {language === "en" ? "TR" : "EN"}
           </button>
@@ -231,7 +213,7 @@ export default function Header() {
             <>
               <button
                 onClick={() => router.push("/dashboard")}
-                className="text-sm font-medium hover:text-blue-600"
+                className="text-sm font-medium hover:text-blue-400"
               >
                 {language === "en" ? "My Page" : "Sayfam"}
               </button>
@@ -247,7 +229,7 @@ export default function Header() {
             </>
           ) : (
             <>
-              <Link href="/login" className="text-sm font-medium">
+              <Link href="/login" className="text-sm font-medium hover:text-blue-400">
                 {language === "en" ? "Sign In" : "Giriş"}
               </Link>
               <Link
