@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { auth, db } from "../../../../lib/firebase";
+import { auth, db } from "../../../lib/firebase";
 
 export default function QuizPage() {
   const router = useRouter();
