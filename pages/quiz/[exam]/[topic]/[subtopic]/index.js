@@ -1,5 +1,5 @@
 import Link from "next/link";
-import QuizHeader from "../../../../../components/QuizHeader";
+//import QuizHeader from "../../../../../components/QuizHeader";
 
 export default function QuizIntro({ exam, topic, subtopic }) {
   return (
