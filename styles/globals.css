@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base body styling */
+body {
+  @apply bg-bg text-gray-900 font-sans;
+}
+
+/* Özel scrollbar (opsiyonel) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-lg;
+}
+
+/* Butonlar için base class */
+.btn {
+  @apply px-4 py-2 rounded-lg font-semibold transition-all duration-200;
+}
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary/80;
+}
+.btn-secondary {
+  @apply bg-secondary text-black hover:bg-secondary/80;
+}
+/* 🎥 Videodaki autoplay butonunu kaldırma */
+video::-webkit-media-controls {
+  display: none !important;
+}
+.math-particle {
+  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  opacity: 0;
+  animation: float 1.6s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty)) scale(1.2);
+    opacity: 0;
+  }
+}
+.symbol-burst {
+  position: fixed;
+  will-change: transform, opacity;
+  z-index: 9999;
+}
+

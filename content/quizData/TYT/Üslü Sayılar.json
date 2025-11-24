@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "3² ifadesinin sonucu aşağıdakilerden hangisidir?",
+      "options": ["6", "9", "12", "3"],
+      "correct": "9"
+    },
+    {
+      "question": "5³ ifadesinin eşiti aşağıdakilerden hangisidir?",
+      "options": ["5 × 3", "5 + 5 + 5", "5 × 5 × 5", "5 / 3"],
+      "correct": "5 × 5 × 5"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi 2⁴ ifadesinin açılmış hâlidir?",
+      "options": ["2 + 2 + 2 + 2", "2 × 2 × 2 × 2", "4 × 4", "4 + 4"],
+      "correct": "2 × 2 × 2 × 2"
+    },
+    {
+      "question": "10¹ kaçtır?",
+      "options": ["0", "1", "10", "100"],
+      "correct": "10"
+    },
+    {
+      "question": "Aşağıdaki ifadelerden hangisi yanlıştır?",
+      "options": [
+        "Her sayının 1. kuvveti kendisine eşittir.",
+        "Her sayının 0. kuvveti 1'e eşittir.",
+        "1'in her kuvveti 1'dir.",
+        "0'ın her kuvveti 0'dır."
+      ],
+      "correct": "0'ın her kuvveti 0'dır."
+    },
+    {
+      "question": "(-2)² işleminin sonucu kaçtır?",
+      "options": ["-4", "4", "-2", "2"],
+      "correct": "4"
+    },
+    {
+      "question": "2³ × 2² işleminin sonucu aşağıdakilerden hangisidir?",
+      "options": ["2⁵", "2⁶", "2³", "2²"],
+      "correct": "2⁵"
+    },
+    {
+      "question": "8 sayısı aşağıdaki üslü gösterimlerden hangisine eşittir?",
+      "options": ["2²", "2³", "3²", "4²"],
+      "correct": "2³"
+    },
+    {
+      "question": "9 sayısı aşağıdakilerden hangisine eşittir?",
+      "options": ["3²", "2³", "3³", "4²"],
+      "correct": "3²"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi 4⁰ + 2² işleminin sonucudur?",
+      "options": ["4", "5", "6", "1"],
+      "correct": "5"
+    }
+  ]
+}

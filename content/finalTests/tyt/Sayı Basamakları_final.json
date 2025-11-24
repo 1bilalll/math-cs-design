@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "573 sayısında yüzler basamağındaki rakam kaçtır?",
+      "options": ["3", "7", "5", "0"],
+      "correct": "5"
+    },
+    {
+      "question": "482 sayısında onlar basamağındaki rakamın basamak değeri kaçtır?",
+      "options": ["8", "80", "40", "800"],
+      "correct": "80"
+    },
+    {
+      "question": "907 sayısında birler basamağındaki rakamın basamak değeri kaçtır?",
+      "options": ["7", "70", "700", "900"],
+      "correct": "7"
+    },
+    {
+      "question": "2463 sayısında yüzler basamağındaki rakam kaçtır?",
+      "options": ["4", "6", "2", "3"],
+      "correct": "4"
+    },
+    {
+      "question": "13508 sayısındaki '3' rakamının basamak değeri kaçtır?",
+      "options": ["3", "30", "300", "3000"],
+      "correct": "3000"
+    },
+    {
+      "question": "6205 sayısında onlar basamağındaki rakam kaçtır?",
+      "options": ["0", "2", "5", "6"],
+      "correct": "0"
+    },
+    {
+      "question": "4082 sayısında 8 rakamının basamak değeri kaçtır?",
+      "options": ["8", "80", "800", "8000"],
+      "correct": "80"
+    },
+    {
+      "question": "39 214 sayısında binler basamağındaki rakam kaçtır?",
+      "options": ["9", "2", "3", "1"],
+      "correct": "9"
+    },
+    {
+      "question": "57 603 sayısındaki onlar basamağının basamak değeri kaçtır?",
+      "options": ["3", "30", "300", "3000"],
+      "correct": "30"
+    },
+    {
+      "question": "84 290 sayısında onlar basamağındaki rakam hangisidir?",
+      "options": ["0", "9", "2", "4"],
+      "correct": "9"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "x pozitif çift, y negatif tek sayıdır. Aşağıdakilerden hangisi her zaman negatiftir?",
+      "options": ["x - y", "xy", "x + y", "x^2 - y", "y^2 - x"],
+      "correct": "xy"
+    },
+    {
+      "question": "Bir tek sayının karesi ile bir çift sayının küpünün toplamı aşağıdakilerden hangisi olabilir?",
+      "options": ["Kesinlikle tek", "Kesinlikle çift", "Pozitif olamaz", "Negatif olamaz", "Tek veya çift olabilir"],
+      "correct": "Tek veya çift olabilir"
+    },
+    {
+      "question": "a negatif çift, b pozitif tek sayıdır. Aşağıdakilerden hangisi kesinlikle pozitif tam sayıdır?",
+      "options": ["a + b", "a - b", "b - a", "ab", "a^2 - b"],
+      "correct": "b - a"
+    },
+    {
+      "question": "x ve y ardışık iki tam sayıdır. x·y çarpımı aşağıdakilerden hangisini garanti eder?",
+      "options": ["Her zaman pozitiftir", "Her zaman negatiftir", "Her zaman çift sayıdır", "Her zaman tek sayıdır", "Her zaman sıfırdır"],
+      "correct": "Her zaman çift sayıdır"
+    },
+    {
+      "question": "Pozitif tek 3 sayının toplamı aşağıdaki seçeneklerden hangisi olamaz?",
+      "options": ["9", "15", "21", "25", "30"],
+      "correct": "30"
+    },
+    {
+      "question": "a ve b negatif tam sayılardır. Aşağıdakilerden hangisi her zaman pozitiftir?",
+      "options": ["a + b", "a - b", "ab", "a + b + 1", "a^2 - b"],
+      "correct": "ab"
+    },
+    {
+      "question": "Bir çift sayı ile pozitif bir tek sayının farkı aşağıdakilerden hangisi olabilir?",
+      "options": ["Kesinlikle pozitif", "Kesinlikle negatif", "Kesinlikle tek", "Tek veya çift olabilir", "Yalnız çift olabilir"],
+      "correct": "Tek veya çift olabilir"
+    },
+    {
+      "question": "n pozitif tek sayıdır. 2n + 4 işleminin sonucu için aşağıdakilerden hangisi doğrudur?",
+      "options": ["Daima çift", "Daima tek", "Asla negatif olamaz", "Her zaman negatif", "Pozitif veya negatif olabilir"],
+      "correct": "Daima çift"
+    },
+    {
+      "question": "x negatif tek, y negatif çift sayıdır. Aşağıdakilerden hangisi kesinlikle çift sayıdır?",
+      "options": ["x + y", "x - y", "xy", "x^2 + y", "x + y^2"],
+      "correct": "xy"
+    },
+    {
+      "question": "Bir pozitif çift sayının yarısı ile bir negatif tek sayının toplamı aşağıdakilerden hangisi olabilir?",
+      "options": ["Yalnız pozitif", "Yalnız negatif", "Yalnız tek", "Pozitif, negatif veya sıfır olabilir", "Yalnız çift"],
+      "correct": "Pozitif, negatif veya sıfır olabilir"
+    }
+  ]
+}

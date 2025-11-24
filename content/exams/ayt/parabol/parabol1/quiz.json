@@ -1,0 +1,67 @@
+[
+     {
+    "question": "Parabolün tepe noktası nedir?",
+    "options": ["(0,0)", "(1,1)", "(-1,0)", "(0,1)"],
+    "answer": 0
+  },
+  {
+    "question": "Parabolün ekseni hangi doğrudur?",
+    "options": ["x ekseni", "y ekseni", "her ikisi", "hiçbiri"],
+    "answer": 1
+  },
+
+
+   {
+    "question": "Parabolün tepe noktası nedir?",
+    "options": [
+      "(0,0)",
+      "Tepe noktası",
+      "Odak",
+      "Direktör",
+      "Hiçbiri"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Grafiği verilen parabole göre maksimum değer nedir?",
+    "graph": {
+      "function": "y = -x^2 + 4x - 3"
+    },
+    "options": ["-3", "0", "1", "2", "4"],
+    "answer": 2
+  },
+
+  {
+    "question": "Parabol denklemi hangisidir?",
+    "options": [
+      "y=x^2",
+      "y=x",
+      "y^2=x",
+      "x=y^2",
+      "y=x^3"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Parabolün simetri ekseni nedir?",
+    "options": [
+      "x = sabit",
+      "y = sabit",
+      "y = x",
+      "x = y",
+      "y=x^2"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Parabolün tepe noktası x koordinatı formülü nedir?",
+    "options": [
+      "-b/(2a)",
+      "b/(2a)",
+      "-2a/b",
+      "a+b",
+      "b-a"
+    ],
+    "answer": 0
+  }
+]

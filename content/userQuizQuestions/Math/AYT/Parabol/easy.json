@@ -1,0 +1,20 @@
+[
+  {
+    "id": "par_e_001",
+    "question": "y = (x−2)² parabolünün tepe noktası nedir?",
+    "options": ["(2, 0)", "(0, 2)", "(-2, 0)", "(2, 2)"],
+    "correct": "(2, 0)"
+  },
+  {
+    "id": "par_e_002",
+    "question": "y = x² parabolünün simetri ekseni hangisidir?",
+    "options": ["x=0", "y=0", "x=1", "y=1"],
+    "correct": "x=0"
+  },
+  {
+    "id": "par_e_003",
+    "question": "y = (x+3)² parabolü yukarı mı aşağı mı açılır?",
+    "options": ["Yukarı", "Aşağı", "Sağa", "Sola"],
+    "correct": "Yukarı"
+  }
+]

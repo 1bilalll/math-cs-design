@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "a ve b tam sayılar olup a çift, b tek ise aşağıdakilerden hangisi kesinlikle çifttir?",
+      "options": ["a + b", "a · b", "a − b", "a^b"],
+      "correct": "a · b"
+    },
+    {
+      "question": "x ve y pozitif tek tam sayılar ise x + y − 1 işleminin sonucu aşağıdakilerden hangisidir?",
+      "options": ["Her zaman tek", "Her zaman çift", "Bazen tek bazen çift", "Belirlenemez"],
+      "correct": "Her zaman tek"
+    },
+    {
+      "question": "a < 0 ve b < 0 ise aşağıdakilerden hangisi kesinlikle pozitiftir?",
+      "options": ["a − b", "a + b", "a · b", "a / b negatif"],
+      "correct": "a · b"
+    },
+    {
+      "question": "a çift, b tek ve c negatif tam sayı ise aşağıdakilerden hangisi kesinlikle negatif olur?",
+      "options": ["a + c", "b + c", "c · b", "c − a"],
+      "correct": "c · b"
+    },
+    {
+      "question": "a ve b tam sayılar olup a çift, b çift ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+      "options": ["a + b tek", "a − b tek", "a^b tek", "a^b çift"],
+      "correct": "a^b çift"
+    },
+    {
+      "question": "x negatif tam sayı, y pozitif tam sayı ise aşağıdakilerden hangisi bazen pozitif bazen negatif olabilir?",
+      "options": ["x + y", "x − y", "x · y", "x / y"],
+      "correct": "x + y"
+    },
+    {
+      "question": "a pozitif tek, b pozitif çift ise aşağıdakilerden hangisi her zaman pozitiftir?",
+      "options": ["a − b", "b − a", "a · b", "a + (−b)"],
+      "correct": "a · b"
+    },
+    {
+      "question": "x tek tam sayı ve x < 0 ise aşağıdakilerden hangisi kesinlikle pozitiftir?",
+      "options": ["|x|", "−x", "x^2", "Hepsi"],
+      "correct": "Hepsi"
+    },
+    {
+      "question": "a, b tam sayılar ve a < 0 < b ise aşağıdakilerden hangisi kesinlikle negatiftir?",
+      "options": ["a − b", "a + b", "a / b", "b − a"],
+      "correct": "a − b"
+    },
+    {
+      "question": "a pozitif tam sayı ve b negatif tam sayı ise a^b işlemi hakkında hangisi doğrudur?",
+      "options": ["Sonuç pozitif tamsayıdır", "Sonuç negatif tamsayıdır", "Sonuç pozitif rasyonel sayıdır", "Sonuç tam sayı değildir"],
+      "correct": "Sonuç pozitif rasyonel sayıdır"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q1",
+    "question": "1, 2, 3, 4, 5, 6, 7 sayıların aritmetik ortalaması nedir?",
+    "options": ["3", "3.5", "4", "4.5"],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "Bir sınıfta 12 erkek ve 18 kız vardır. Sınıftan rastgele seçilen bir kişinin kız olma olasılığı nedir?",
+    "options": ["3/5", "2/3", "3/4", "5/8"],
+    "answer": 0
+  },
+  {
+    "id": "q3",
+    "question": "x doğal sayı olmak üzere; 3x + 2 = 20 ise x kaçtır?",
+    "options": ["4", "6", "5", "8"],
+    "answer": 2
+  },
+  {
+    "id": "q4",
+    "question": "Bir sayı kümesi {2, 4, 6, 8, 10} ise ortanca (medyan) değer nedir?",
+    "options": ["4", "6", "8", "5"],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Aşağıdakilerden hangisi tek + tek + çift işleminin sonucudur?",
+    "options": ["Daima tek", "Daima çift", "Bazen tek bazen çift", "Asla tanımlı değildir"],
+    "answer": 0
+  },
+  {
+    "id": "q6",
+    "question": "Ardışık iki çift sayının çarpımı için aşağıdakilerden hangisi doğrudur?",
+    "options": ["Daima 4'e bölünebilir", "Daima 8'e bölünebilir", "Asla 4'e bölünemez", "Asla çift olmaz"],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "Bir sayı hem 3'e hem 4'e tam bölünüyorsa aşağıdakilerden hangisine de kesin olarak bölünür?",
+    "options": ["6", "8", "9", "12"],
+    "answer": 3
+  },
+  {
+    "id": "q8",
+    "question": "Bir zar iki kez atılıyor. Toplamın 7 gelme olasılığı kaçtır?",
+    "options": ["1/12", "1/6", "1/9", "5/36"],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "Bir bakkal 4 liradan 30 kalem alıp tanesini 6 liradan satarsa toplam karı kaç TL olur?",
+    "options": ["40", "50", "60", "70"],
+    "answer": 2
+  },
+  {
+    "id": "q10",
+    "question": "A = {1,3,5} ve B = {3,5,7,9} ise A ∩ B kümesi nedir?",
+    "options": ["{1,3,5,7,9}", "{3,5}", "{1,5,9}", "{1,3}"],
+    "answer": 1
+  }
+]

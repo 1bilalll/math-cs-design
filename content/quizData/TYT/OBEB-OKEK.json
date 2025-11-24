@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "12 ve 18 sayılarının EBOB'u (OBEB'i) kaçtır?",
+      "options": ["2", "3", "6", "9"],
+      "correct": "6"
+    },
+    {
+      "question": "8 ve 20 sayılarının EKOK'u (OKEK'i) aşağıdakilerden hangisidir?",
+      "options": ["20", "40", "60", "80"],
+      "correct": "40"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi EBOB ile EKOK arasındaki ilişkiyi doğru ifade eder?",
+      "options": [
+        "EBOB × EKOK = Sayıların toplamı",
+        "EBOB × EKOK = Sayıların farkı",
+        "EBOB × EKOK = Sayıların çarpımı",
+        "EBOB = EKOK"
+      ],
+      "correct": "EBOB × EKOK = Sayıların çarpımı"
+    },
+    {
+      "question": "9 ve 15 sayılarının EBOB'u kaçtır?",
+      "options": ["3", "5", "9", "15"],
+      "correct": "3"
+    },
+    {
+      "question": "6 ve 14 sayılarının EKOK'u aşağıdakilerden hangisidir?",
+      "options": ["28", "42", "56", "84"],
+      "correct": "42"
+    },
+    {
+      "question": "Birbirleriyle asal (ortak böleni 1 olan) iki sayının EBOB'u kaçtır?",
+      "options": ["0", "1", "Sayıların toplamı", "Sayıların çarpımı"],
+      "correct": "1"
+    },
+    {
+      "question": "Birbirleriyle asal iki sayının EKOK'u aşağıdakilerden hangisine eşittir?",
+      "options": ["1", "Sayıların farkı", "Sayıların toplamı", "Sayıların çarpımı"],
+      "correct": "Sayıların çarpımı"
+    },
+    {
+      "question": "4, 6 ve 8 sayılarının ortak böleni aşağıdakilerden hangisidir?",
+      "options": ["2", "4", "6", "8"],
+      "correct": "2"
+    },
+    {
+      "question": "3, 5 ve 15 sayılarının EKOK'u aşağıdakilerden hangisidir?",
+      "options": ["15", "30", "45", "60"],
+      "correct": "15"
+    },
+    {
+      "question": "EBOB(16, 24) + EKOK(4, 6) işleminin sonucu kaçtır?",
+      "options": ["16", "22", "20", "28"],
+      "correct": "22"
+    }
+  ]
+}

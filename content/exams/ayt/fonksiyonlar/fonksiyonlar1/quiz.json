@@ -1,0 +1,68 @@
+[
+  {
+    "question": "f(x) = (√(2x − 6)) / (x² − 9) fonksiyonunun en geniş tanım kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "x ≥ 3",
+      "x > 3 ve x ≠ 3",
+      "x ≥ 3 ve x ≠ −3, x ≠ 3",
+      "x ≥ 3 ve x ≠ 3",
+      "x > 3 ve x ≠ −3"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "f(x) = ln( (x − 1) / (4 − x) ) fonksiyonunun tanım kümesi nedir?",
+    "options": [
+      "x < 1 veya x > 4",
+      "1 < x < 4",
+      "x > 1 ve x < 4",
+      "x ≠ 1 ve x ≠ 4",
+      "x < 1 veya 1 < x < 4"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "f(x) = |x − 3| + |x + 1| fonksiyonunun görüntü kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "[0, ∞)",
+      "[2, ∞)",
+      "[4, ∞)",
+      "[1, ∞)",
+      "(−∞, ∞)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "f(x) = 2x^2 - 3x olduğuna göre f(1) + f(2) + ... + f(20) ifadesinin değeri kaçtır?",
+    "options": [
+      "5010",
+      "5060",
+      "5110",
+      "5160",
+      "5200"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "f(x) = e^(x² − 5x + 8) fonksiyonuna göre görüntü kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "(0, ∞)",
+      "[1, ∞)",
+      "(e³, ∞)",
+      "(e, ∞)",
+      "[e³, ∞)"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "f((x + 1) / (x − 1)) = (x^2 + 1) / (x − 1) bağıntısına göre f(3) kaçtır?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2
+  }
+]

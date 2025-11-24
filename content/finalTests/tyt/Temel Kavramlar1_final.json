@@ -1,0 +1,52 @@
+{
+  "questions": [
+    {
+      "question": "Aşağıdakilerden hangisi doğal sayılar kümesinin bir alt kümesidir?",
+      "options": ["Z", "Q", "N", "R"],
+      "correct": "N"
+    },
+    {
+      "question": "x bir tam sayı olmak üzere, x < 0 ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+      "options": ["x doğal sayıdır", "x negatif tam sayıdır", "x rasyonel değildir", "x pozitif tam sayıdır"],
+      "correct": "x negatif tam sayıdır"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi irrasyonel bir sayıdır?",
+      "options": ["4/5", "0,23̅", "√7", "12"],
+      "correct": "√7"
+    },
+     {
+      "question": "a ve b gerçel sayılar için |a − b| > 4 ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+      "options": ["a > b + 4 veya b > a + 4", "a > b + 4", "b > a + 4", "a − b = 4"],
+      "correct": "a > b + 4 veya b > a + 4"
+    },
+    {
+      "question": "A = {x | x ∈ Q, 2 < x < 5} ve B = {x | x ∈ Q, 4 ≤ x ≤ 7} olduğuna göre A ∩ B kümesi aşağıdakilerden hangisidir?",
+      "options": ["(2, 4)", "(4, 5)", "[4, 5)", "(4, 5]"],
+      "correct": "[4, 5)"
+    },
+
+
+
+    {
+      "question": "A = {−3, −2, 0, 2, 4}, B = {−2, 0, 1, 4}. A ∩ B kaç elemanlıdır?",
+      "options": ["1", "2", "3", "4"],
+      "correct": "3"
+    },
+    {
+      "question": "Bir a gerçek sayısı için |a − 3| = 5 ise aşağıdakilerden hangisi doğrudur?",
+      "options": ["a = 8 veya a = -2", "a = 2 veya a = -8", "a = 5 veya a = -3", "a = 3 veya a = -5"],
+      "correct": "a = 8 veya a = -2"
+    },
+    {
+      "question": "0 < x < 1 ve x rasyonel sayı ise x aşağıdaki hangi kümede kesin bulunur?",
+      "options": ["N", "Z", "Q", "Z−"],
+      "correct": "Q"
+    },
+    {
+      "question": "Tam sayılar kümesinde tanımlı olan * işlemi için x * y = x·y + x − y verilmiştir. Buna göre (−2) * 3 işleminin sonucu kaçtır?",
+      "options": ["−5", "−3", "−7", "−1"],
+      "correct": "−5"
+    }
+  ]
+}

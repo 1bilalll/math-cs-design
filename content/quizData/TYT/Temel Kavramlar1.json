@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Aşağıdaki ifadelerden hangisi doğrudur?",
+      "options": ["N ⊂ Z ⊂ Q ⊂ R", "Z ⊂ N ⊂ Q ⊂ R", "Q ⊂ Z ⊂ N ⊂ R", "N ⊂ Q ⊂ Z ⊂ R"],
+      "correct": "N ⊂ Z ⊂ Q ⊂ R"
+    },
+    {
+      "question": "a bir doğal sayı ve b bir tam sayı olup a + b negatiftir. Buna göre aşağıdakilerden hangisi doğrudur?",
+      "options": ["a kesinlikle negatiftir", "b pozitif olmak zorundadır", "b negatif olmalıdır", "a irrasyonel olmalıdır"],
+      "correct": "b negatif olmalıdır"
+    },
+    {
+      "question": "0,12112111211112… sayı dizisi için aşağıdakilerden hangisi doğrudur?",
+      "options": ["Rasyoneldir", "İrrasyoneldir", "Tam sayıdır", "Doğal sayıdır"],
+      "correct": "İrrasyoneldir"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi hem reel hem tam sayı olup aynı zamanda doğal sayı değildir?",
+      "options": ["5", "0", "−3", "1"],
+      "correct": "−3"
+    },
+    {
+      "question": "x ve y rasyonel sayılar ise aşağıdakilerden hangisi her zaman irrasyonel olabilir?",
+      "options": ["x + y", "x − y", "x · y", "x / √2"],
+      "correct": "x / √2"
+    },
+    {
+      "question": "Asal sayıların kümesi P aşağıdakilerden hangisiyle aynı özellikteki elemanları içerir?",
+      "options": ["Sadece pozitif ve tek tam sayılar", "1'den büyük yalnızca iki pozitif böleni olan sayılar", "Sadece doğal sayılar", "Tüm çift tek sayıların birleşimi"],
+      "correct": "1'den büyük yalnızca iki pozitif böleni olan sayılar"
+    },
+    {
+      "question": "A = {x | x irrasyonel}, B = {x | x rasyonel}. A ∩ B aşağıdakilerden hangisidir?",
+      "options": ["{0}", "{1}", "{ }", "R"],
+      "correct": "{ }"
+    },
+    {
+      "question": "p asal ve p > 2 ise aşağıdaki K kümelerinden hangisine kesinlikle aittir?",
+      "options": ["Doğal sayılar", "Rasyonel sayılar", "Tam sayılar", "Hepsi"],
+      "correct": "Hepsi"
+    },
+    {
+      "question": "A = Q − Z kümesi aşağıdakilerden hangisini ifade eder?",
+      "options": ["Tüm reel sayılar", "Tüm irrasyonel sayılar", "Tam sayı olmayan rasyonel sayılar", "Sadece negatif sayılar"],
+      "correct": "Tam sayı olmayan rasyonel sayılar"
+    },
+    {
+      "question": "R − Q kümesi aşağıdakilerden hangisiyle aynıdır?",
+      "options": ["İrrasyonel sayılar", "Tam sayılar", "Doğal sayılar", "Asal sayılar"],
+      "correct": "İrrasyonel sayılar"
+    }
+  ]
+}

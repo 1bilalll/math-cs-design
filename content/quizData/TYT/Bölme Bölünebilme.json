@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "question": "Aşağıdaki sayılardan hangisi 2'ye tam bölünür?",
+      "options": ["35", "42", "57", "63"],
+      "correct": "42"
+    },
+    {
+      "question": "Bir sayının 5'e tam bölünebilmesi için hangi şart sağlanmalıdır?",
+      "options": ["Sonu çift olmalı", "Sonu 0 veya 5 olmalı", "Rakamları toplamı 3'e bölünmeli", "Yarısı tam sayı olmalı"],
+      "correct": "Sonu 0 veya 5 olmalı"
+    },
+    {
+      "question": "Aşağıdaki sayılardan hangisi 3'e tam bölünür?",
+      "options": ["121", "250", "228", "401"],
+      "correct": "228"
+    },
+    {
+      "question": "Aşağıdaki sayılardan hangisi 4'e tam bölünür?",
+      "options": ["132", "145", "218", "325"],
+      "correct": "132"
+    },
+    {
+      "question": "Bir sayının 6'ya tam bölünebilmesi için hangi iki kurala birlikte uyması gerekir?",
+      "options": [
+        "2 ve 3'e bölünebilme",
+        "3 ve 5'e bölünebilme",
+        "4 ve 5'e bölünebilme",
+        "2 ve 9'a bölünebilme"
+      ],
+      "correct": "2 ve 3'e bölünebilme"
+    },
+    {
+      "question": "Aşağıdaki sayılardan hangisi 8'e tam bölünür?",
+      "options": ["432", "316", "520", "241"],
+      "correct": "432"
+    },
+    {
+      "question": "Bir sayının 9'a tam bölünebilmesi için aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "Rakamları toplamı 9'un katı olmalı",
+        "Sonu 4 olmalı",
+        "Son iki basamağı 4'ün katı olmalı",
+        "Son basamağı çift olmalı"
+      ],
+      "correct": "Rakamları toplamı 9'un katı olmalı"
+    },
+    {
+      "question": "Aşağıdaki sayılardan hangisi 10'a tam bölünür?",
+      "options": ["151", "270", "306", "415"],
+      "correct": "270"
+    },
+    {
+      "question": "240 sayısı aşağıdakilerden hangisine tam bölünmez?",
+      "options": ["2", "3", "5", "7"],
+      "correct": "7"
+    },
+    {
+      "question": "Bir sayı hem 3 hem 5 hem de 2'ye tam bölünüyorsa aşağıdakilerden hangisine kesinlikle tam bölünür?",
+      "options": ["6", "9", "10", "30"],
+      "correct": "30"
+    }
+  ]
+}

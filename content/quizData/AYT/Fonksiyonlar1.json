@@ -1,0 +1,77 @@
+{
+  "questions": [
+    {
+      "question": "f(x) = |x - 3| fonksiyonu için f(1) + f(5) kaçtır?",
+      "options": ["2", "4", "6", "8"],
+      "correct": "4"
+    },
+    {
+      "question": "f(x) = x^3 - x fonksiyonunun köklerinin toplamı kaçtır?",
+      "options": ["0", "1", "-1", "3"],
+      "correct": "0"
+    },
+    {
+      "question": "f(x) = x² - 1 fonksiyonunun çözüm kümesi {–2, 2} ise fonksiyonun köklerinin çarpımı kaçtır?",
+      "options": ["-4", "4", "0", "2"],
+      "correct": "-4"
+    },
+    {
+      "question": "A = {1, 2, 3, 4} ve B = {a, b, c}. f: A → B fonksiyonu için aşağıdakilerden hangisi kesinlikle doğrudur?",
+      "options": [
+        "f birebirdir.",
+        "f örten olamaz.",
+        "f sabit olmak zorundadır.",
+        "A'daki her eleman yalnızca bir B elemanına gider."
+      ],
+      "correct": "A'daki her eleman yalnızca bir B elemanına gider."
+    },
+      {
+      "question": "f : R → R, f(x) = |2x - 6| fonksiyonu için aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "Birebir ve örten",
+        "Birebir fakat örten değil",
+        "Örten fakat birebir değil",
+        "Hem birebir hem örten değil",
+        "Sabit fonksiyon"
+      ],
+      "correct": "Örten fakat birebir değil"
+    },
+    {
+      
+      "question": "Aşağıdakilerden hangisi fonksiyon değildir?",
+      "options": [
+        "{(1,2), (2,3), (3,4)}",
+        "{(5,1), (5,2), (5,3)}",
+        "f(x) = x³",
+        "f(x) = |x|",
+        "{(-2,-4), (-1,-2), (0,0)}"
+      ],
+      "correct": "{(5,1), (5,2), (5,3)}"
+    },
+    {
+      "question": "A = {1, 2, 3} ve B = {4, 5}. f: A → B için aşağıdakilerden hangisi bir fonksiyon olamaz?",
+      "options": [
+        "f(1)=4, f(2)=5, f(3)=4",
+        "f(1)=5, f(2)=5, f(3)=5",
+        "f(1)=4, f(2)=4, f(3)=5",
+        "f(1)=4, f(2)=5, f(3)=5, f(1)=5"
+      ],
+      "correct": "f(1)=4, f(2)=5, f(3)=5, f(1)=5"
+    },
+    {
+      "question": "f(x) = √(x + 4) fonksiyonunun tanım kümesi aşağıdakilerden hangisidir?",
+      "options": ["x ≥ 4", "x ≥ -4", "x > -4", "x ≤ 4"],
+      "correct": "x ≥ -4"
+    },
+    {
+      "question": "f(x) = x^2 - 4x + 4 fonksiyonunun minimum değeri kaçtır?",
+      "options": ["0", "2", "4", "-2"],
+      "correct": "0"
+    },
+    {
+      "question": "f: R → R, f(x) = ax + 5 ve f(2) = 1 ise a kaçtır?",
+      "options": ["-2", "-3", "2", "3"],
+      "correct": "-2"
+    }
+  ]
+}

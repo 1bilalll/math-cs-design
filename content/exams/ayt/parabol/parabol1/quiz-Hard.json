@@ -1,0 +1,13 @@
+[
+  {
+    "question": "Parabolün tepe noktası nedir?",
+    "options": ["(0,0)", "(1,1)", "(-1,0)", "(0,1)"],
+    "answer": 0
+  },
+  {
+    "question": "Parabolün ekseni hangi doğrudur?",
+    "options": ["x ekseni", "y ekseni", "her ikisi", "hiçbiri"],
+    "answer": 1
+  }
+]
+

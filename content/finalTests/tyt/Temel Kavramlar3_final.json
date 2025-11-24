@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Toplamları 45 olan üç ardışık pozitif tam sayıdan en büyüğü kaçtır?",
+      "options": ["13", "14", "15", "16"],
+      "correct": "15"
+    },
+    {
+      "question": "Beş ardışık tek sayının toplamı 125 ise ortanca sayı kaçtır?",
+      "options": ["23", "25", "27", "29"],
+      "correct": "25"
+    },
+    {
+      "question": "Toplamları 0 olan üç ardışık tam sayıdan en küçüğü aşağıdakilerden hangisidir?",
+      "options": ["−2", "−1", "0", "1"],
+      "correct": "−1"
+    },
+    {
+      "question": "Başlangıcı 6 olan dört ardışık çift sayının toplamı kaçtır?",
+      "options": ["26", "28", "30", "32"],
+      "correct": "28"
+    },
+    {
+      "question": "a! = 24 ve b! = 120 olduğuna göre a + b kaçtır?",
+      "options": ["7", "8", "9", "10"],
+      "correct": "7"
+    },
+    {
+      "question": "6! − 5! işleminin sonucu kaçtır?",
+      "options": ["120", "480", "600", "720"],
+      "correct": "480"
+    },
+    {
+      "question": "Toplamları 78 olan dört ardışık sayının en küçüğü kaçtır?",
+      "options": ["17", "18", "19", "20"],
+      "correct": "18"
+    },
+    {
+      "question": "n! = n × (n − 1) × (n − 2) × ... × 1 olduğuna göre 9! / 8! sonucu kaçtır?",
+      "options": ["8", "9", "72", "81"],
+      "correct": "9"
+    },
+    {
+      "question": "Üç ardışık çift tam sayının çarpımı 48 ise ortanca sayı kaç olabilir?",
+      "options": ["2", "4", "6", "8"],
+      "correct": "4"
+    },
+    {
+      "question": "x, x + 1 ve x + 2 ardışık doğal sayıların toplamı x! eşit olduğuna göre x kaçtır?",
+      "options": ["3", "4", "5", "6"],
+      "correct": "3"
+    }
+  ]
+}

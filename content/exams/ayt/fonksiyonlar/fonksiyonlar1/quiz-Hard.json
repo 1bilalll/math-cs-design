@@ -1,0 +1,57 @@
+[
+  {
+    "question": "f(x) = x^3 - x için f(1) + f(2) + ... + f(8) ifadesinin değeri kaçtır?",
+    "options": [
+      "1240",
+      "1250",
+      "1260",
+      "1270",
+      "1280"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "f(x) = (|x − 2| − |x + 4|) / (x² − 4x − 12) fonksiyonunun en geniş tanım kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "ℝ \\ {2, −2}",
+      "ℝ \\ {2, 6}",
+      "ℝ \\ {−2, 6}",
+      "ℝ \\ {−3, 2, 4}",
+      "ℝ \\ {−2, 2, 6}"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "f(x) = tan( ln( (x + 3) / (2 − x) ) ) fonksiyonunun en geniş tanım kümesi nedir?",
+    "options": [
+      "(x + 3)/(2 − x) > 0 ve ln ifadesi π/2 + kπ yapmayacak değerler",
+      "x < −3 veya x > 2 ve ln ifadesi (π/2 + kπ) yapmayacak",
+      "x < −3 veya −3 < x < 2",
+      "x ≠ −3, x ≠ 2",
+      "x < −3 veya 2 < x < ∞"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "f(x) = e^(1 / (x² − 1)) fonksiyonunun **görüntü kümesi** (range) aşağıdakilerden hangisidir?",
+    "options": [
+      "(0, e]",
+      "(e, ∞)",
+      "(0, 1) ∪ (e, ∞)",
+      "(1, e)",
+      "(1, ∞)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "f(x) = (x² + 2x + 5) / √(x² − 4x + 3) fonksiyonunun görüntü kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "y ≥ √5",
+      "y ≥ 2√2",
+      "y > 3",
+      "y ≥ 4",
+      "y ≥ 5"
+    ],
+    "answer": 1
+  }
+]

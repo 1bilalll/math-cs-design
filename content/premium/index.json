@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "AYT Matematik 120 Sayfa PDF",
+    "type": "pdf",
+    "url": "/content/premium/pdf/ayt_matematik_120.pdf",
+    "exam": "AYT"
+  },
+  {
+    "id": 2,
+    "title": "AYT Geometri Soru Bankası PDF",
+    "type": "pdf",
+    "url": "/content/premium/pdf/ayt_geometri_soru_bankasi.pdf",
+    "exam": "AYT"
+  },
+  {
+    "id": 3,
+    "title": "Limit – Türev – İntegral Ustalık Videosu",
+    "type": "video",
+    "url": "https://youtu.be/XXXXXXX",
+    "exam": "AYT"
+  }
+]
+

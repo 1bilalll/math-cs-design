@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "357 sayısında yüzler basamağındaki rakam kaçtır?",
+      "options": ["3", "5", "7", "0"],
+      "correct": "3"
+    },
+    {
+      "question": "4829 sayısında onlar basamağının basamak değeri kaçtır?",
+      "options": ["2", "20", "200", "800"],
+      "correct": "20"
+    },
+    {
+      "question": "5604 sayısında binler basamağındaki rakamın sayı değeri kaçtır?",
+      "options": ["5", "600", "4", "5600"],
+      "correct": "5"
+    },
+    {
+      "question": "7432 sayısında birler basamağının basamak değeri aşağıdakilerden hangisidir?",
+      "options": ["2", "20", "200", "2000"],
+      "correct": "2"
+    },
+    {
+      "question": "903 sayısında onlar basamağındaki rakam kaçtır?",
+      "options": ["3", "0", "9", "90"],
+      "correct": "0"
+    },
+    {
+      "question": "2.345 sayısında yüzler basamağına karşılık gelen basamak değeri kaçtır?",
+      "options": ["3", "300", "40", "2000"],
+      "correct": "300"
+    },
+    {
+      "question": "85.607 sayısında yüzler basamağındaki rakam aşağıdakilerden hangisidir?",
+      "options": ["5", "6", "0", "7"],
+      "correct": "6"
+    },
+    {
+      "question": "Bir sayıda basamak değeri 4000 olan rakam aşağıdakilerden hangisi olabilir?",
+      "options": ["4", "40", "400", "4000"],
+      "correct": "4"
+    },
+    {
+      "question": "678 sayısında '7' rakamının basamak değeri kaçtır?",
+      "options": ["7", "70", "700", "600"],
+      "correct": "70"
+    },
+    {
+      "question": "Aşağıdaki ifadelerden hangisi her zaman doğrudur?",
+      "options": [
+        "Birler basamağı her zaman 10 ile çarpılır",
+        "Onlar basamağı her zaman 100 ile çarpılır",
+        "Yüzler basamağı her zaman 100 ile çarpılır",
+        "Binler basamağı her zaman 10 ile çarpılır"
+      ],
+      "correct": "Yüzler basamağı her zaman 100 ile çarpılır"
+    }
+  ]
+}
