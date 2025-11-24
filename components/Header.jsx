@@ -170,9 +170,9 @@ export default function Header() {
             {language === "en" ? "Coaching" : "Koçluk"}
           </Link>
 
-          {/* Exams */}
+          {/* Exams - sadece md ve üzeri */}
           <div
-            className="relative"
+            className="relative hidden md:block"
             onMouseEnter={() => {
               if (window.innerWidth >= 768) {
                 clearTimeout(examsTimer.current);
@@ -184,13 +184,6 @@ export default function Header() {
                 examsTimer.current = setTimeout(() => setShowExams(false), 300);
               }
             }}
-            onClick={() => {
-              if (window.innerWidth < 768) {
-                router.push("/exams");
-                return;
-              }
-              setShowExams((prev) => !prev);
-            }}
           >
             <span className="cursor-pointer select-none hover:text-blue-400 transition">
               {language === "en" ? "Exams" : "Sınavlar"}
@@ -199,7 +192,7 @@ export default function Header() {
             {/* Dropdown only for desktop */}
             <div
               className={`absolute top-full left-0 mt-2 bg-gray-900 border border-gray-700 shadow-lg rounded-lg p-2 w-56 flex flex-col gap-1 z-50 transition-all duration-200 ${
-                showExams && window.innerWidth >= 768 ? "opacity-100 visible" : "opacity-0 invisible"
+                showExams ? "opacity-100 visible" : "opacity-0 invisible"
               }`}
             >
               {exams.map((exam) => (
