@@ -231,11 +231,12 @@ export default function Header() {
 
         {/* RIGHT PANEL */}
         <div className="flex items-center gap-3 relative">
+          {/* Arama çubuğu sadece md ve üzeri */}
           <input
             value={query}
             onChange={(e) => handleSearch(e.target.value)}
             placeholder={language === "en" ? "Search exams..." : "Sınav ara..."}
-            className={`border border-gray-600 bg-gray-800 text-gray-200 rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-28 focus:w-64 ${
+            className={`hidden md:inline-block border border-gray-600 bg-gray-800 text-gray-200 rounded-full transition-all duration-300 px-3 py-1 text-sm outline-none w-28 focus:w-64 ${
               query !== "" ? "w-64" : ""
             }`}
           />
