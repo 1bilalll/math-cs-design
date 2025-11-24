@@ -68,8 +68,20 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-slate-400 mt-6">
-          © {new Date().getFullYear()} Math & CS — All rights reserved.
-        </p>
+  © {new Date().getFullYear()} Math & CS — All rights reserved.
+</p>
+
+<p className="text-[11px] text-slate-400 mt-1">
+  Designed & Developed by{" "}
+  <a
+    href="https://github.com/1bilalll"
+    target="_blank"
+    className="font-medium text-slate-500 hover:text-slate-700 transition"
+  >
+    Bilal Arslan
+  </a>
+</p>
+
       </div>
 
       {/* Modal */}
