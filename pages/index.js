@@ -13,7 +13,7 @@ export default function Home() {
         <title>Math & CS — Home</title>
         <meta
           name="description"
-          content="Explore topics and interactive lessons on analytic geometry, calculus, algorithms and more."
+          content="Explore topics and interactive lessons on analytic geometry, calculus, computer science and more."
         />
       </Head>
 

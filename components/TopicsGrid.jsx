@@ -87,20 +87,20 @@ export default function TopicsGrid3D() {
 
   const topics = {
     en: [
-      { name: "Analytics", desc: "Understand data trends.", href: "/topics/analytics", type: "sphere", color: "#1ea4ff" },
+      { name: "Probability & Statistic", desc: "Chance & Analysis", href: "/topics/probability", type: "sphere", color: "#1ea4ff" },
       { name: "Calculus", desc: "Derivatives & integrals.", href: "/topics/calculus", type: "torus", color: "#29cfff" },
-      { name: "Discrete Math", desc: "Graph theory & logic.", href: "/topics/discrete-mathematics", type: "sphere", color: "#46e8ff" },
-      { name: "Algorithms", desc: "Efficient problem solving.", href: "/topics/algorithms", type: "sorting", color: "#2dc0ff" },
-      { name: "Data Structures", desc: "Organize data efficiently.", href: "/topics/data-structures", type: "linkedlist", color: "#33dbff" },
-      { name: "Exam", desc: "Test your knowledge.", href: "/exams", type: "exam", color: "#14b3ff" },
+      { name: "Geometry", desc: "Shapes, Point & Space.", href: "/topics/geometry", type: "sphere", color: "#46e8ff" },
+      { name: "Computer Science", desc: "Data & Programing.", href: "/topics/computer-science", type: "sorting", color: "#2dc0ff" },
+      { name: "Differantial Equations", desc: "Solutions & Matris.", href: "/topics/differantial-equations", type: "linkedlist", color: "#33dbff" },
+      { name: "Exam", desc: "Test & Solutions.", href: "/exams", type: "exam", color: "#14b3ff" },
     ],
     tr: [
-      { name: "Analitik", desc: "Veri eğilimlerini anlamak.", href: "/topics/analytics", type: "sphere", color: "#1ea4ff" },
+      { name: "Olasılık ve İstatistik", desc: "Şans & Analiz", href: "/topics/probability", type: "sphere", color: "#1ea4ff" },
       { name: "Kalkülüs", desc: "Türev & integral.", href: "/topics/calculus", type: "torus", color: "#29cfff" },
-      { name: "Ayrık Matematik", desc: "Graf teorisi & mantık.", href: "/topics/discrete-mathematics", type: "sphere", color: "#46e8ff" },
-      { name: "Algoritmalar", desc: "Verimli problem çözümü.", href: "/topics/algorithms", type: "sorting", color: "#2dc0ff" },
-      { name: "Veri Yapıları", desc: "Veriyi etkili yönetme.", href: "/topics/data-structures", type: "linkedlist", color: "#33dbff" },
-      { name: "Sınav", desc: "Kendini test et.", href: "/exams", type: "exam", color: "#14b3ff" },
+      { name: "Geometri", desc: " Şekiller, Nokta & Uzay .", href: "/topics/geometry", type: "sphere", color: "#46e8ff" },
+      { name: "Bilgisayar Bilimi", desc: "Veri & Programlama.", href: "/topics/computer-science", type: "sorting", color: "#2dc0ff" },
+      { name: "Diferansiyel Denklemler", desc: "Çözüm & Matris", href: "/topics/differantial-equations", type: "linkedlist", color: "#33dbff" },
+      { name: "Sınav", desc: "Test & Çözüm.", href: "/exams", type: "exam", color: "#14b3ff" },
     ],
   }[language];
 
