@@ -1,0 +1,68 @@
+[
+  {
+    "question": "f : R → R, f(x) = ax + b fonksiyonunun hem 1-1 hem de örten olabilmesi için aşağıdaki koşullardan hangisi sağlanmalıdır?",
+    "options": [
+      "a = 0",
+      "a ≠ 0",
+      "b = 0",
+      "a = 1 ve b = 0",
+      "a ≥ 0"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "f : R → R, f(x) = x³ − 6x + 1 fonksiyonu için aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "1-1 değildir",
+      "Örten değildir",
+      "Hem 1-1 hem örten",
+      "Sabit fonksiyondur",
+      "İçine fonksiyondur"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "f : [−2, 4] → R, f(x) = (x − 3)² + 1 fonksiyonunun görüntü kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "[0, 10]",
+      "[1, 10]",
+      "[1, 13]",
+      "[1, 26]",
+      "[0, 26]"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "f : R → R, f(x) = |2x − 5| − |x + 1| fonksiyonu için aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "1-1 fonksiyondur",
+      "Örten fonksiyondur",
+      "Sıfır fonksiyonudur",
+      "İçine fonksiyondur",
+      "Doğrusal fonksiyondur"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "f(x) = x² + c ve g(x) = (x − 1)² + c fonksiyonları için aşağıdakilerden hangisi her c ∈ R için doğrudur?",
+    "options": [
+      "f ve g eş fonksiyonlardır",
+      "f ve g sabit fonksiyonlardır",
+      "Tanım kümeleri farklıdır",
+      "f ve g 1-1 değildir",
+      "f ve g tüm reel sayılar için eşit değildir"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "f : R → R, f(x) = 2x + 3 ve g : R → R, g(x) = ax + 3 fonksiyonlarının eşit fonksiyon olması için aşağıdakilerden hangisi gereklidir?",
+    "options": [
+      "a = 0",
+      "a = 1",
+      "a = 2",
+      "a = −2",
+      "a ≠ 0"
+    ],
+    "answer": 2
+  }
+]

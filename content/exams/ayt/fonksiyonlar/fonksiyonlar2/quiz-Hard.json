@@ -1,0 +1,57 @@
+[
+  {
+    "question": "f : R → R, f(x) = x·e^(−x²) fonksiyonu için aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "f 1-1 ve örten fonksiyondur.",
+      "f 1-1 değildir fakat örten fonksiyondur.",
+      "f 1-1'dir fakat örten değildir.",
+      "f ne 1-1'dir ne de örten fonksiyondur.",
+      "f sabit fonksiyondur."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "f : R → R, f(x) = |x² − 4x + 3| − |x − 5| fonksiyonu için hangi ifade doğrudur?",
+    "options": [
+      "f 1-1 fonksiyondur.",
+      "f örten fonksiyondur.",
+      "f sabit fonksiyondur.",
+      "f'nin minimum değeri vardır ve birden fazla noktada gerçekleşir.",
+      "f'nin görüntü kümesi (0, ∞) dir."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "f : R → R, f(x) = ln(x² + 1) + (x − 2)² fonksiyonunun görüntü kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "(-∞, ∞)",
+      "[ln(1), ∞)",
+      "[0, ∞)",
+      "[ln(5), ∞)",
+      "[1, ∞)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "f : R → R, f(x) = 3x − 7 ve g : R → R, g(x) = ax + b fonksiyonları için f ∘ g = g ∘ f ise aşağıdakilerden hangisi her zaman doğrudur?",
+    "options": [
+      "a = 1",
+      "b = 7",
+      "b = 0",
+      "a = 3",
+      "b = 7 − 7a"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "f : R → R, f(x) = (x − 1) / (x + 2) fonksiyonunun tersinin tanım kümesi aşağıdakilerden hangisidir?",
+    "options": [
+      "R",
+      "R − {−2}",
+      "R − {1}",
+      "R − {−1}",
+      "R − {0}"
+    ],
+    "answer": 4
+  }
+]
