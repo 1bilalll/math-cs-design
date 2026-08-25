@@ -8,7 +8,7 @@
       "13",
       "14"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "question": "x ve y birer tam sayıdır. -4 ≤ x < 5 ve -3 < y ≤ 6 olduğuna göre, x + y toplamının alabileceği en büyük değer kaçtır?",
@@ -19,7 +19,7 @@
       "11",
       "12"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "question": "Aşağıdaki sayılardan hangisi bir irrasyonel (köklü/reel) sayıdır ancak rasyonel sayı değildir?",
@@ -30,7 +30,7 @@
       "2/3",
       "-5"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "question": "x bir reel sayıdır. 2 < x < 7 olduğuna göre, 3x - 1 ifadesinin alabileceği en geniş değer aralığı aşağıdakilerden hangisidir?",
@@ -41,7 +41,7 @@
       "[6, 21]",
       "(2, 17)"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "İki basamaklı en büyük negatif tam sayı ile üç basamaklı en küçük pozitif tam sayının toplamı kaçtır?",

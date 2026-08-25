@@ -1,6 +1,6 @@
 [
   {
-    "question": "En küçük doğal sayı ile iki basamaklı en büyük rakamın toplamı kaçtır?",
+    "question": "En küçük iki basamaklı doğal sayı ile en büyük rakamın toplamı kaçtır?",
     "options": [
       "9",
       "10",
@@ -8,7 +8,7 @@
       "99",
       "100"
     ],
-    "answer": 1
+    "answer": 3
   },
   {
     "question": "Rakamları farklı üç basamaklı en büyük doğal sayı ile iki basamaklı en küçük doğal sayının farkı kaçtır?",
@@ -17,9 +17,9 @@
       "887",
       "898",
       "978",
-      "988"
+      "997"
     ],
-    "answer": 4
+    "answer": 5
   },
   {
     "question": "a ve b birer rakam olmak üzere, 4a + 3b ifadesinin alabileceği en büyük değer kaçtır?",
@@ -30,7 +30,7 @@
       "63",
       "70"
     ],
-    "answer": 3
+    "answer": 4
   },
   {
     "question": "x ve y birer doğal sayıdır. x . y = 30 olduğuna göre, x + y toplamının alabileceği en büyük değer kaçtır?",
@@ -41,7 +41,7 @@
       "35",
       "61"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "question": "Aşağıdakilerden hangisi bir doğal sayı kümesinin elemanı olamaz?",
@@ -52,7 +52,7 @@
       "12",
       "145"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "question": "Yeni Nesil Soru: Bir okulda öğrencilere dijital şifre oluşturulması için şu kural verilmiştir: Şifre 4 basamaklı olacak ve her basamakta birbirinden farklı rakamlar kullanılacaktır. Ayrıca şifrenin binler basamağındaki rakam, yüzler basamağındaki rakamdan büyük ve onlar basamağındaki rakamdan küçük olacaktır. Bu kurala uygun yazılabilecek en büyük 4 basamaklı şifrenin rakamları toplamı kaçtır?",
