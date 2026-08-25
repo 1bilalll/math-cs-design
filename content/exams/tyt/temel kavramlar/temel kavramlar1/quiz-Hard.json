@@ -1,0 +1,68 @@
+[
+  {
+    "question": "x, y ve z birbirinden farklı rakamlardır. 3x + 2y - z ifadesinin alabileceği en büyük değer kaçtır?",
+    "options": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "İki basamaklı üç farklı doğal sayının toplamı 210 olduğuna göre, bu sayıların en küçüğü en az kaçtır?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "x ve y birer doğal sayıdır. 3x + 5y = 120 olduğuna göre, x'in alabileceği kaç farklı değer vardır?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Üç basamaklı ABC doğal sayısı, iki basamaklı AB sayısının 11 katından 7 eksiktir. Buna göre, A + B + C toplamı kaçtır?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Rakamları toplamı 12 olan üç basamaklı kaç tane doğal sayı vardır?",
+    "options": [
+      "65",
+      "68",
+      "70",
+      "72",
+      "75"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Yeni Nesil Soru: Bir kutunun içerisinde 0'dan 9'a kadar olan rakamların yazılı olduğu özdeş 10 adet kart bulunmaktadır. Kutudan rastgele iki kart çekilip üzerindeki rakamlar yan yana getirilerek iki basamaklı doğal sayılar oluşturuluyor. Oluşturulabilecek tüm iki basamaklı doğal sayılardan rakamları farklı olanların toplamı, rakamları aynı olanların toplamından kaç fazladır?",
+    "options": [
+      "4680",
+      "4860",
+      "5040",
+      "5220",
+      "5400"
+    ],
+    "answer": 1
+  }
+]

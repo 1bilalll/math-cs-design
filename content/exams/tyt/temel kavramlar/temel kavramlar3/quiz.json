@@ -1,0 +1,68 @@
+[
+  {
+    "question": "a < 0 < b < c olduğuna göre, aşağıdakilerden hangisi daima pozitiftir?",
+    "options": [
+      "a . b . c",
+      "(a + b) / c",
+      "(a - c) / b",
+      "b - c - a",
+      "a . (b - c)"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "x, y ve z birer tam sayıdır. x^3 . y^2 > 0 ve y . z < 0 olduğuna göre x, y and z'nin işaretleri sırasıyla aşağıdakilerden hangisidir?",
+    "options": [
+      "(+, +, -)",
+      "(+, -, -)",
+      "(-, +, -)",
+      "(+, -, +)",
+      "(-, -, +)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Ardışık 5 tek sayının toplamı 145 olduğuna göre, bu sayıların en küçüğü kaçtır?",
+    "options": [
+      "25",
+      "27",
+      "29",
+      "31",
+      "33"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Boyutları ardışık üç çift sayı olan bir dikdörtgenler prizmasının hacmi 960 birimküptür. Buna göre, bu prizmanın yüzey alanı kaç birimkaredir?",
+    "options": [
+      "592",
+      "612",
+      "632",
+      "652",
+      "672"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "x < 0 olmak üzere, |x| - |-2x| + |3x| işleminin sonucu aşağıdakilerden hangisidir?",
+    "options": [
+      "-2x",
+      "-x",
+      "x",
+      "2x",
+      "4x"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Yeni Nesil Soru: Bir sokaktaki evlerin numaralandırılması ile ilgili şu kurallar bilinmektedir: Caddenin sol tarafındaki evler 3'er artan ardışık tek sayılarla, sağ tarafındaki evler ise 4'er artan ardışık çift sayılarla numaralandırılmıştır. Sol taraftaki 4. evin numarası, sağ taraftaki 2. evin numarasından 5 fazladır. Sol taraftaki ilk ev numarası 13 olduğuna göre, sağ taraftaki ilk ev numarası kaçtır?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "answer": 1
+  }
+]

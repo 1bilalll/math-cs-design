@@ -1,0 +1,68 @@
+[
+  {
+    "question": "x < y < 0 < z olmak üzere, (x . y - z) / (x - y) ifadesinin işaretini belirleyiniz.",
+    "options": [
+      "Pozitif (+)",
+      "Negatif (-)",
+      "Sıfır (0)",
+      "İşareti belirlenemez",
+      "Yalnızca x=y iken pozitif"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "a, b ve c sıfırdan ve birbirinden farklı gerçek sayılardır. a^2 . b < 0 ve a - b . c > 0 olduğuna göre a, b ve c'nin işaretleri sırasıyla aşağıdakilerden hangisidir?",
+    "options": [
+      "(+, -, +)",
+      "(-, -, +)",
+      "(-, +, -)",
+      "(+, +, -)",
+      "(-, -, -)"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "1'den n'e kadar olan ardışık doğal sayıların toplamı x, 12'den n'e kadar olan ardışık doğal sayıların toplamı y'dir. x + y = 1040 olduğuna göre, n kaçtır?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "x ve y birer tam sayıdır. -5 < x < 4 ve -3 < y < 6 olduğuna göre, x . y çarpımının alabileceği en büyük değer ile en küçük değerin toplamı kaçtır?",
+    "options": [
+      "-3",
+      "0",
+      "3",
+      "5",
+      "7"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "a ve b birer tam sayı olmak üzere, a . b çarpımının alabileceği en büyük değer için a + b = 20 olduğuna göre, |a - b| farkı kaçtır?",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Yeni Nesil Soru: Dijital bir oyun tahtasında ardışık sayılar sırasıyla yan yana dizilmektedir. 1'den x'e kadar olan ardışık sayıların toplamı ile 1'den y'ye kadar olan ardışık sayıların toplamı arasındaki fark 120 olacak şekilde iki sayı seçiliyor. Buna göre x + y toplamının en küçük değeri kaçtır?",
+    "options": [
+      "29",
+      "31",
+      "33",
+      "35",
+      "37"
+    ],
+    "answer": 1
+  }
+]

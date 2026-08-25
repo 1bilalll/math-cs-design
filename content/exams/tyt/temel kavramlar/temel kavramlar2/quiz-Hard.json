@@ -1,0 +1,68 @@
+[
+  {
+    "question": "x, y ve z birer reel sayıdır. x^2 . y < 0, y^3 . z > 0 ve x . z > 0 olduğuna göre x, y ve z'nin işaretleri sırasıyla aşağıdakilerden hangisidir?",
+    "options": [
+      "(-, -, -)",
+      "(+, -, -)",
+      "(-, +, +)",
+      "(+, +, -)",
+      "(-, -, +)"
+    ],
+    "answer": 4
+  },
+  {
+    "question": "a ve b birer reel sayıdır. a² < a ve a . b = 12 olduğuna göre, b'nin alabileceği en geniş tam sayı değerleri aralığı kaç farklı değer alır?",
+    "options": [
+      "Yalnızca negatif değerler",
+      "Sonsuz tane",
+      "12",
+      "6",
+      "Değer alamaz"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "x ve y birer tam sayıdır. x . y = 36 olduğuna göre, x + y toplamının alabileceği en büyük ve en küçük değerlerin toplamı kaçtır?",
+    "options": [
+      "-37",
+      "0",
+      "37",
+      "74",
+      "-74"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Her doğal sayı aynı zamanda bir tam sayıdır.",
+      "Her rasyonel sayı aynı zamanda bir reel sayıdır.",
+      "İki irrasyonel sayının toplamı her zaman irrasyoneldir.",
+      "En küçük asal sayı 2'dir.",
+      "Sıfır rasyonel bir sayıdır."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "x ve y gerçel (reel) sayılardır. x = 5 - a ve y = a + 3 olduğuna göre, x . y çarpımının alabileceği en büyük değer kaçtır?",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "25",
+      "36"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Yeni Nesil Soru: Bir öğretmen tahtaya doğal sayılar, tam sayılar ve reel sayılar kümesini içeren iç içe üç küme çizmiştir. Öğrencilerden biri elindeki sayı kartlarını kümelerin eleman olma durumuna göre yerleştirecektir. Elindeki sayılar şunlardır: x = √8, y = -3, z = 0, t = 7/2, w = π. Bu kartlardan kaç tanesi 'Tam Sayılar' kümesinin içinde yer alır ancak 'Doğal Sayılar' kümesinin içinde yer almaz?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1
+  }
+]
