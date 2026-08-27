@@ -15,13 +15,25 @@ const LottiePlayer = dynamic(
 // Rastgele soru seçme ve şıkları karıştırma
 function getRandomQuestions(allQuestions, maxQuestions) {
   const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, maxQuestions).map(q => ({
-    ...q,
-    options: q.options
+  return shuffled.slice(0, maxQuestions).map(q => {
+    // Orijinal doğru cevabın metnini alıyoruz
+    const originalCorrectAnswerText = q.options[q.answer];
+
+    // Seçenekleri rastgele karıştırıyoruz
+    const shuffledOptions = q.options
       .map(opt => ({ opt, sort: Math.random() }))
       .sort((a, b) => a.sort - b.sort)
-      .map(o => o.opt),
-  }));
+      .map(o => o.opt);
+
+    // Doğru cevabın yeni karıştırılmış dizideki indeksini buluyoruz
+    const newAnswerIndex = shuffledOptions.indexOf(originalCorrectAnswerText);
+
+    return {
+      ...q,
+      options: shuffledOptions,
+      answer: newAnswerIndex, // İndeksi güncelliyoruz!
+    };
+  });
 }
 
 export default function QuizStart({
