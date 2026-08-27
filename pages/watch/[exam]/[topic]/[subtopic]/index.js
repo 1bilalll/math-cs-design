@@ -16,17 +16,37 @@ export default function WatchSubtopicPage() {
 
     // 🎥 video
     fetch(`${base}&file=videourl.txt`)
-      .then((r) => r.text())
-      .then((url) => {
+      .then((r) => {
+        if (!r.ok) throw new Error("Dosya bulunamadı");
+        return r.text();
+      })
+      .then((rawUrl) => {
+        if (!rawUrl) return setVideoURL(null);
+        // Tüm boşlukları, satır sonu ve görünmeyen karakterleri temizle
+        let url = rawUrl.trim().replace(/[\r\n]+/gm, "");
         if (!url) return setVideoURL(null);
-        url = url.trim();
 
-        if (url.includes("watch?v=")) url = url.replace("watch?v=", "embed/");
-        if (url.includes("&")) url = url.split("&")[0];
+        // YouTube normal linkini embed formatına güvenli şekilde çevir
+        if (url.includes("watch?v=")) {
+          url = url.replace("watch?v=", "embed/");
+        } else if (url.includes("youtu.be/")) {
+          const videoId = url.split("youtu.be/")[1]?.split("?")[0];
+          if (videoId) url = `https://www.youtube.com/embed/${videoId}`;
+        }
+
+        // Eğer başka parametreler varsa onları temizle ama embed yapısını bozma
+        if (url.includes("&") && !url.includes("/embed/")) {
+          url = url.split("&")[0];
+        } else if (url.includes("?si=")) {
+          url = url.split("?si=")[0]; // Paylaşım linklerindeki takip parametrelerini temizle
+        }
 
         setVideoURL(url);
       })
-      .catch(() => setVideoURL(null));
+      .catch((err) => {
+        console.log("Video yüklenirken hata:", err);
+        setVideoURL(null);
+      });
 
     // 📘 summary → önce PDF dene → sonra DOCX → sonra MD
     fetch(`${base}&file=summary.pdf`)
