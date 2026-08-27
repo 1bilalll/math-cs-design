@@ -22,23 +22,29 @@ export default function WatchSubtopicPage() {
       })
       .then((rawUrl) => {
         if (!rawUrl) return setVideoURL(null);
-        // Tüm boşlukları, satır sonu ve görünmeyen karakterleri temizle
         let url = rawUrl.trim().replace(/[\r\n]+/gm, "");
         if (!url) return setVideoURL(null);
 
         // YouTube normal linkini embed formatına güvenli şekilde çevir
         if (url.includes("watch?v=")) {
-          url = url.replace("watch?v=", "embed/");
+          // Video ID'sini ve varsa süre (t) parametresini koruyarak embed'e çevir
+          const videoIdMatch = url.match(/v=([^&]+)/);
+          const timeMatch = url.match(/t=(\d+s?)/);
+          
+          if (videoIdMatch && videoIdMatch[1]) {
+            let videoId = videoIdMatch[1].split("&")[0];
+            url = `https://www.youtube.com/embed/${videoId}`;
+            if (timeMatch && timeMatch[1]) {
+              // Saniye bilgisini embed formatına uyarla (örn: ?start=10)
+              const seconds = timeMatch[1].replace('s', '');
+              url += `?start=${seconds}`;
+            }
+          }
         } else if (url.includes("youtu.be/")) {
-          const videoId = url.split("youtu.be/")[1]?.split("?")[0];
-          if (videoId) url = `https://www.youtube.com/embed/${videoId}`;
-        }
-
-        // Eğer başka parametreler varsa onları temizle ama embed yapısını bozma
-        if (url.includes("&") && !url.includes("/embed/")) {
-          url = url.split("&")[0];
-        } else if (url.includes("?si=")) {
-          url = url.split("?si=")[0]; // Paylaşım linklerindeki takip parametrelerini temizle
+          const parts = url.split("youtu.be/")[1]?.split("?")[0];
+          if (parts) {
+            url = `https://www.youtube.com/embed/${parts}`;
+          }
         }
 
         setVideoURL(url);
@@ -47,7 +53,6 @@ export default function WatchSubtopicPage() {
         console.log("Video yüklenirken hata:", err);
         setVideoURL(null);
       });
-
     // 📘 summary → önce PDF dene → sonra DOCX → sonra MD
     fetch(`${base}&file=summary.pdf`)
       .then((r) => {
