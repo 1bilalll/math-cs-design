@@ -7,13 +7,9 @@ export default function ExamsHome() {
     { name: "AYT", slug: "ayt" },
     { name: "LGS", slug: "lgs" },
     { name: "SAT", slug: "sat" },
-    { name: "ACT", slug: "act" },
+    { name: "KPSS", slug: "kpss" },
     { name: "BAC", slug: "bac" },
     { name: "AP CALCULUS BC", slug: "ap-calculus-bc" },
-    { name: "ABİTUR", slug: "abitur" },
-    { name: "A-LEVEL-MATHEMATİCS", slug: "a-level mathematics" },
-    { name: "GRE", slug: "gre" },
-
 
   ];
 
